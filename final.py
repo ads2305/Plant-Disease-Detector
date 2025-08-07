@@ -166,7 +166,7 @@ st.sidebar.markdown("""
 
 # Button to open chatbot in a new tab
 if st.sidebar.button("💬 Open Chatbot"):
-    js = "window.open('http://localhost:8502')"  # Open chatbot at port 8502; adjust URL/port as needed
+    js = "window.open('https://plant-disease-detector-9cbrzmhpmco44jmujkzqqq.streamlit.app/')"  # Open chatbot at port 8502; adjust URL/port as needed
     st.components.v1.html(f"<script>{js}</script>")
 
 
