@@ -1,6 +1,7 @@
 streamlit
 Pillow
 plotly
-googletrans==4.0.0-rc1
 tensorflow
 numpy
+googletrans==4.0.0-rc1
+httpx==0.13.3
